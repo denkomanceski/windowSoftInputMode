@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.vertex.windowSoftInputMode"
+    version="0.2.11">
+    <name>CoolPlugin</name>
+    <description>Plugin to change windowSoftInputMode in android from javascript</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,windowSoftManager</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <js-module src="www/windowSoftManager.js" name="windowSoftManager">
+        <clobbers target="windowSoftManager" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="windowSoftManager" >
+                <param name="android-package" value="windowSoftManager"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/windowSoftManager.java" target-dir="src/" />
+    </platform>
+
+</plugin>
