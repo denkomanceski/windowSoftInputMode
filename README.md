@@ -6,8 +6,9 @@ Currently the plugin supports setting the soft input to adjustPan (SOFT_INPUT_AD
 cordova plugin add https://github.com/denkomanceski/windowSoftInputMode.git
 
 # Usage
-Set the soft input mode to adjustPan: ```windowSoftManager.setMode("adjustPan");```
-Set the soft input mode to adjustResize: ```windowSoftManager.setMode("adjustResize");```
+To set the soft input mode to adjustPan: ```windowSoftManager.setMode("adjustPan");```
+
+To set the soft input mode to adjustResize: ```windowSoftManager.setMode("adjustResize");```
 
 Thats it. Simple and clear
 
