@@ -1,0 +1,33 @@
+{
+  "name": "windowSoftManager",
+  "version": "1.0.0",
+  "description": "This plugin allows you to edit Android windowSoftInputMode dynamically from Cordova.",
+  "cordova": {
+    "id": "com.vertex.windowSoftInputMode",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denkomanceski/windowSoftInputMode"
+  },
+  "keywords": [
+    "Keyboard",
+    "windowSoftInputMode",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Denko Manceski (https://github.com/denkomanceski)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denkomanceski/windowSoftInputMode/issues"
+  },
+  "homepage": "https://github.com/denkomanceski/windowSoftInputMode#readme"
+}
